@@ -11,19 +11,11 @@
 
 ## Installation
 
-### With [ppm](https://github.com/artemdorozhkin/ppm.git)
-
-Run from the Immediate Window:
-
-```vba
-ppm "install pprint"
-```
-
 ### Manually
 
 1. Open **Excel VBA Editor** (`ALT + F11`)
 2. Go to **File > Export File...** (`Ctrl + E`)
-3. Select the `PPrintModule.bas` VBA module code
+3. Select the `ppri_Main.bas` VBA module code
 4. Save and start using the functions in your macros
 
 ## Example
@@ -38,7 +30,7 @@ Sub Example()
     Set dict = CreateObject("Scripting.Dictionary")
     dict.Add "key", arr
 
-    PPrint "Test", Date, arr, dict
+    ppri_PPrint "Test", Date, arr, dict
 End Sub
 ```
 
