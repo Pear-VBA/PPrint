@@ -1,5 +1,5 @@
 Attribute VB_Name = "Examples"
-'@Folder "PPrintProject.Examples"
+'@Folder "Examples"
 Option Explicit
 
 Public Sub Example()
@@ -18,13 +18,13 @@ Public Sub Example()
     d("array") = Array(1, "2")
     Set d("collection") = c
 
-    PPrint "number:", 1
-    PPrint "string:", "Hello, World!"
-    PPrint "array:", Array(1, "2")
-    PPrint "collection:", c
-    PPrint "dictionary:", d
-    PPrint "range:", Range("A1:C1")
-    PPrint "user class without repr__ method:", New Class1
-    PPrint "user class with repr__ method:", New Class2
-    PPrint "other objects:", ThisWorkbook, Worksheets, CreateObject("Scripting.FileSystemObject")
+    ppri_PPrint "number:", 1
+    ppri_PPrint "string:", "Hello, World!"
+    ppri_PPrint "array:", Array(1, "2")
+    ppri_PPrint "collection:", c
+    ppri_PPrint "dictionary:", d
+    ppri_PPrint "range:", Range("A1:C1")
+    ppri_PPrint "user class without repr__ method:", New Class1
+    ppri_PPrint "user class with repr__ method:", New Class2
+    ppri_PPrint "other objects:", ThisWorkbook, Worksheets, CreateObject("Scripting.FileSystemObject")
 End Sub

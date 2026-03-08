@@ -1,8 +1,8 @@
-Attribute VB_Name = "PPrintModule"
+Attribute VB_Name = "ppri_Main"
 '@Folder "PPrintProject.src"
 Option Explicit
 
-Public Sub PPrint(ParamArray Values() As Variant)
+Public Sub ppri_PPrint(ParamArray Values() As Variant)
     Dim Result As String
 
     Dim Item As Variant
